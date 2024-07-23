@@ -118,8 +118,8 @@ expected.
 
 **Note:** As of the time of this writing, ddclient does not use an encrypted
 HTTPS connection by default when the scheme "https://" is
-missing from a URL. To enable it, open ``/etc/ddclient.conf`` and add
-``ssl=yes`` above the ``server=`` statement or use explicitly use "https://" in your URL.
+missing from the URL. To enable it, open ``/etc/ddclient.conf`` and add
+``ssl=yes`` above the ``server=`` statement or explicitly use "https://" in your URL.
 We **strongly recommend** doing
 so; otherwise, your credentials will be exposed during transmission.
 
